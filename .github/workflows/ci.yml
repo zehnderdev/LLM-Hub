@@ -24,6 +24,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      #- name: Run tests
-        # run: |
-        # path to python code and uncomment all  
+      - name: Run tests
+        run: |
+          pytest 
+          # pytest sucht alle Dateien im aktuellen Verzeichnis und in Unterverzeichnissen, die mit test_ anfangen oder enden.
+          # In diesen Dateien sucht es dann nach Funktionen, die mit test_ anfangen, um sie als Tests zu erkennen.
