@@ -28,4 +28,4 @@ jobs:
         run: |
           pytest 
           # pytest sucht alle Dateien im aktuellen Verzeichnis und in Unterverzeichnissen, die mit test_ anfangen oder enden.
-          # In diesen Dateien sucht es dann nach Funktionen, die mit test_ anfangen, um sie als Tests zu erkennen.
+          # In diesen Dateien sucht es dann nach Funktionen, die mit test_ anfangen, um sie als Tests zu erkennen!
