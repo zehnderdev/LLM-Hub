@@ -4,20 +4,6 @@ title: "[ISSUE] "
 labels: ["needs-triage"]
 assignees: []
 
-body:
-  - type: dropdown
-    id: issue_type
-    attributes:
-      label: Typ des Issues
-      description: Was für eine Art von Issue willst du melden?
-      options:
-        - 🐛 Bug Report
-        - ✨ Feature Request
-        - ❓ Frage
-      default: 0
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
