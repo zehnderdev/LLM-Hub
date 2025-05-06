@@ -4,6 +4,7 @@ title: "[ISSUE] "
 labels: ["needs-triage"]
 assignees: []
 
+body:
   - type: textarea
     id: description
     attributes:
